@@ -22,6 +22,8 @@
     tutti e trentatré
     
     trotterellando';
+
+    $testonew = $_GET['testo'];
 ?>
 
 <!DOCTYPE html>
@@ -34,5 +36,6 @@
 </head>
 <body>
     <p>testo:<?php echo $testo ?> </p>
+    <h1>testo: <?php echo $testonew?></h1>
 </body>
 </html>
