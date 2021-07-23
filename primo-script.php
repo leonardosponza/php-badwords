@@ -24,6 +24,9 @@
     trotterellando';
 
     $testonew = $_GET['testo'];
+
+    $testonuovo = str_replace($testonew, '***', $testo)
+   
 ?>
 
 <!DOCTYPE html>
@@ -37,5 +40,6 @@
 <body>
     <p>testo:<?php echo $testo ?> </p>
     <h1>testo: <?php echo $testonew?></h1>
+    <p><?php echo $testonuovo?> </p>
 </body>
 </html>
